@@ -1,0 +1,2 @@
+sistemadecadastro.MinhaConexao
+trabalho.MinhaConexao
