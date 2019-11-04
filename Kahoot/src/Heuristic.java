@@ -13,7 +13,7 @@ public class Heuristic {
         HashSet<String> topicos = new HashSet<>();
 
         String url = "jdbc:mysql://127.0.0.1:3306/kahoot";
-        Connection conn = DriverManager.getConnection(url,"hsnavarro","435092");
+        Connection conn = DriverManager.getConnection(url,username,password);
 
         Statement stmt = conn.createStatement();
         ResultSet rs;
